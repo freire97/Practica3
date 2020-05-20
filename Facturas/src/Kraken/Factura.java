@@ -7,7 +7,8 @@ private class Factura implements Ifactura {
 	protected Estados estado;
 	
 	public static void main(String[] args) {
-
+		getTotal();
+		getCantidadIva();
 	}
 
 	public getTotal() {
